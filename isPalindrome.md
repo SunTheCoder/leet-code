@@ -23,10 +23,11 @@ O(n)+O(n)+O(n)+O(n)+O(n)=O(n)
 function isPalindrome(x: number): boolean {
     
     let reversed = x.toString().split("").reverse().join("")
-    if ( reversed === x.toString() ) {
-        return true
-    }
-    return false
+    // if ( reversed === x.toString() ) {
+    //     return true
+    // }
+    // return false
+    return reversed === x.toString()
     
 };
 ```
